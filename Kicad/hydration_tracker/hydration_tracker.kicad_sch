@@ -2403,6 +2403,26 @@
 		)
 		(uuid "fc55f42e-1d09-43d3-b5f7-db1c025a33ab")
 	)
+	(label "Display Device"
+		(at 187.96 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d68037bb-cc0b-4827-a788-7b91456a30e8")
+	)
+	(label "Sensor device"
+		(at 64.77 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f1174643-7073-4d7d-8b23-bf3510632862")
+	)
 	(symbol
 		(lib_id "Device:Battery")
 		(at 55.88 119.38 0)
@@ -2945,7 +2965,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical_SMD_Pin1Left"
 			(at 162.306 68.834 0)
 			(effects
 				(font
@@ -4069,7 +4089,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SW_PTS636_SMT-G_5_CNK"
+		(property "Footprint" "footprints_PTS636:SW_PTS636_SMT-G_5_CNK"
 			(at 208.28 77.47 0)
 			(effects
 				(font
