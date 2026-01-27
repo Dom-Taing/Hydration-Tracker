@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/keochonodomtaing/Documents/Techin 514/Hydration Tracker/Kicad/hydration_tracker/hydration_tracker.kicad_sch</source>
+    <date>2026-01-26T18:28:24-0800</date>
+    <tool>Eeschema 9.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>hydration_tracker.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="BT1">
+      <value>Battery</value>
+      <footprint>Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <description>Multiple-cell battery</description>
+      <fields>
+        <field name="Footprint">Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Multiple-cell battery</field>
+      </fields>
+      <libsource lib="Device" part="Battery" description="Multiple-cell battery"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="hydration_tracker.kicad_sch"/>
+      <property name="ki_keywords" value="batt voltage-source cell"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>34f2dc90-398e-4ad5-bb90-747f91a38db3</tstamps>
+    </comp>
+    <comp ref="BT2">
+      <value>Battery</value>
+      <footprint>Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <description>Multiple-cell battery</description>
+      <fields>
+        <field name="Footprint">Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Multiple-cell battery</field>
+      </fields>
+      <libsource lib="Device" part="Battery" description="Multiple-cell battery"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="hydration_tracker.kicad_sch"/>
+      <property name="ki_keywords" value="batt voltage-source cell"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00ee59f0-a70e-4644-b916-1d14738c84bc</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>NeoPixel_THT</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
+      <datasheet>https://www.adafruit.com/product/1938</datasheet>
+      <description>RGB LED with integrated controller, 5mm/8mm LED package</description>
+      <fields>
+        <field name="Footprint">LED_THT:LED_D5.0mm</field>
+        <field name="Datasheet">https://www.adafruit.com/product/1938</field>
+        <field name="Description">RGB LED with integrated controller, 5mm/8mm LED package</field>
+      </fields>
+      <libsource lib="LED" part="NeoPixel_THT" description="RGB LED with integrated controller, 5mm/8mm LED package"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="hydration_tracker.kicad_sch"/>
+      <property name="ki_keywords" value="RGB LED NeoPixel addressable"/>
+      <property name="ki_fp_filters" value="LED*D5.0mm* LED*D8.0mm*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>de3f83c7-bcc0-462b-b157-ec9ba7d03913</tstamps>
+    </comp>
+    <comp ref="M1">
+      <value>Stepper_Motor_bipolar</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical_SMD_Pin1Left</footprint>
+      <datasheet>http://www.infineon.com/dgdl/Application-Note-TLE8110EE_driving_UniPolarStepperMotor_V1.1.pdf?fileId=db3a30431be39b97011be5d0aa0a00b0</datasheet>
+      <description>4-wire bipolar stepper motor</description>
+      <fields>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical_SMD_Pin1Left</field>
+        <field name="Datasheet">http://www.infineon.com/dgdl/Application-Note-TLE8110EE_driving_UniPolarStepperMotor_V1.1.pdf?fileId=db3a30431be39b97011be5d0aa0a00b0</field>
+        <field name="Description">4-wire bipolar stepper motor</field>
+      </fields>
+      <libsource lib="Motor" part="Stepper_Motor_bipolar" description="4-wire bipolar stepper motor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="hydration_tracker.kicad_sch"/>
+      <property name="ki_keywords" value="bipolar stepper motor"/>
+      <property name="ki_fp_filters" value="PinHeader*P2.54mm*Vertical* TerminalBlock* Motor*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4999b87f-29df-4fac-ba7c-8b28d053a6ab</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>PTS636 SM50 SMTR LFS</value>
+      <footprint>footprints_PTS636:SW_PTS636_SMT-G_5_CNK</footprint>
+      <datasheet>PTS636 SM50 SMTR LFS</datasheet>
+      <fields>
+        <field name="Footprint">footprints_PTS636:SW_PTS636_SMT-G_5_CNK</field>
+        <field name="Datasheet">PTS636 SM50 SMTR LFS</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="2026-01-27_02-22-24" part="PTS636_SM50_SMTR_LFS" description=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="hydration_tracker.kicad_sch"/>
+      <property name="ki_keywords" value="PTS636 SM50 SMTR LFS"/>
+      <property name="ki_fp_filters" value="SW_PTS636_SMT-G_5_CNK"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f2fc5c4b-9eaf-4d01-af46-47390114f073</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>ESP32C3</value>
+      <footprint>RF_Module:ESP32-C3-DevKitM-1</footprint>
+      <fields>
+        <field name="Footprint">RF_Module:ESP32-C3-DevKitM-1</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ESP32C3" part="ESP32C3" description=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="hydration_tracker.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1eeb76e9-f2f7-4581-8271-a27084352f0b</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>~</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Techin514" part="Capacitive_sensor" description=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="hydration_tracker.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2119007c-6dda-4f57-baa5-aebf728e5448</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>~</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Techin514" part="Capacitive_sensor" description=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="hydration_tracker.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>db7e63ce-2ed8-45a1-9c13-59586b49b7ba</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>~</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Techin514" part="Capacitive_sensor" description=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="hydration_tracker.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>60db486b-aa5b-469b-820a-ac7a0e05da3a</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>~</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Techin514" part="Capacitive_sensor" description=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="hydration_tracker.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bd4764f2-1a94-4abc-801f-1e8f09fb6756</tstamps>
+    </comp>
+    <comp ref="U7">
+      <value>ESP32C3</value>
+      <footprint>RF_Module:ESP32-C3-DevKitM-1</footprint>
+      <fields>
+        <field name="Footprint">RF_Module:ESP32-C3-DevKitM-1</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="" part="ESP32C3_2" description=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="hydration_tracker.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c32d18e8-e512-4d49-b441-9ec740876164</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="" part="ESP32C3_2">
+      <fields>
+        <field name="Reference">U1</field>
+        <field name="Value">ESP32C3</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="" name="D0" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="2026-01-27_02-22-24" part="PTS636_SM50_SMTR_LFS">
+      <docs>PTS636 SM50 SMTR LFS</docs>
+      <footprints>
+        <fp>SW_PTS636_SMT-G_5_CNK</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">PTS636 SM50 SMTR LFS</field>
+        <field name="Footprint">SW_PTS636_SMT-G_5_CNK</field>
+        <field name="Datasheet">PTS636 SM50 SMTR LFS</field>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspecified"/>
+        <pin num="2" name="2" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Battery">
+      <description>Multiple-cell battery</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">Battery</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Multiple-cell battery</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ESP32C3" part="ESP32C3">
+      <fields>
+        <field name="Reference">U1</field>
+        <field name="Value">ESP32C3</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="" name="D0" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="LED" part="NeoPixel_THT">
+      <description>RGB LED with integrated controller, 5mm/8mm LED package</description>
+      <docs>https://www.adafruit.com/product/1938</docs>
+      <footprints>
+        <fp>LED*D5.0mm*</fp>
+        <fp>LED*D8.0mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">NeoPixel_THT</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://www.adafruit.com/product/1938</field>
+        <field name="Description">RGB LED with integrated controller, 5mm/8mm LED package</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DOUT" type="output"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="VDD" type="power_in"/>
+        <pin num="4" name="DIN" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Motor" part="Stepper_Motor_bipolar">
+      <description>4-wire bipolar stepper motor</description>
+      <docs>http://www.infineon.com/dgdl/Application-Note-TLE8110EE_driving_UniPolarStepperMotor_V1.1.pdf?fileId=db3a30431be39b97011be5d0aa0a00b0</docs>
+      <footprints>
+        <fp>PinHeader*P2.54mm*Vertical*</fp>
+        <fp>TerminalBlock*</fp>
+        <fp>Motor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">M</field>
+        <field name="Value">Stepper_Motor_bipolar</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">http://www.infineon.com/dgdl/Application-Note-TLE8110EE_driving_UniPolarStepperMotor_V1.1.pdf?fileId=db3a30431be39b97011be5d0aa0a00b0</field>
+        <field name="Description">4-wire bipolar stepper motor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Techin514" part="Capacitive_sensor">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value"/>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="" name="1" type="output"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="2026-01-27_02-22-24">
+      <uri>/Users/keochonodomtaing/Documents/Techin 514/Kicad/KiCADv6_PTS636/2026-01-27_02-22-24.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="ESP32C3">
+      <uri>/Users/keochonodomtaing/Documents/KiCad/9.0/symbols/ESP32C3.kicad_sym</uri>
+    </library>
+    <library logical="LED">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//LED.kicad_sym</uri>
+    </library>
+    <library logical="Motor">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Motor.kicad_sym</uri>
+    </library>
+    <library logical="Techin514">
+      <uri>/Users/keochonodomtaing/Documents/KiCad/9.0/symbols/Techin514.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3" class="Default">
+      <node ref="D1" pin="3" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U1" pin="" pinfunction="3V3" pintype="input"/>
+    </net>
+    <net code="2" name="GND1" class="Default">
+      <node ref="BT1" pin="2" pinfunction="-" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="SW1" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="U1" pin="" pinfunction="GND" pintype="input"/>
+    </net>
+    <net code="3" name="GND2" class="Default">
+      <node ref="BT2" pin="2" pinfunction="-" pintype="passive"/>
+      <node ref="U7" pin="" pinfunction="GND" pintype="input"/>
+    </net>
+    <net code="4" name="Net-(D1-DIN)" class="Default">
+      <node ref="D1" pin="4" pinfunction="DIN" pintype="input"/>
+      <node ref="U1" pin="" pinfunction="D7" pintype="input"/>
+    </net>
+    <net code="5" name="Net-(M1--)" class="Default">
+      <node ref="M1" pin="2" pinfunction="-" pintype="passive"/>
+      <node ref="U1" pin="" pinfunction="D3" pintype="input"/>
+    </net>
+    <net code="6" name="Net-(U1-D0)" class="Default">
+      <node ref="M1" pin="4" pintype="passive"/>
+      <node ref="U1" pin="" pinfunction="D0" pintype="input"/>
+    </net>
+    <net code="7" name="Net-(U1-D1)" class="Default">
+      <node ref="M1" pin="3" pintype="passive"/>
+      <node ref="U1" pin="" pinfunction="D1" pintype="input"/>
+    </net>
+    <net code="8" name="Net-(U1-D2)" class="Default">
+      <node ref="M1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="" pinfunction="D2" pintype="input"/>
+    </net>
+    <net code="9" name="Net-(U1-D8)" class="Default">
+      <node ref="SW1" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="U1" pin="" pinfunction="D8" pintype="input"/>
+    </net>
+    <net code="10" name="Net-(U3-1)" class="Default">
+      <node ref="U3" pin="" pinfunction="1" pintype="output"/>
+      <node ref="U7" pin="" pinfunction="D0" pintype="input"/>
+    </net>
+    <net code="11" name="Net-(U4-1)" class="Default">
+      <node ref="U4" pin="" pinfunction="1" pintype="output"/>
+      <node ref="U7" pin="" pinfunction="D4" pintype="input"/>
+    </net>
+    <net code="12" name="Net-(U5-1)" class="Default">
+      <node ref="U5" pin="" pinfunction="1" pintype="output"/>
+      <node ref="U7" pin="" pinfunction="D10" pintype="input"/>
+    </net>
+    <net code="13" name="Net-(U6-1)" class="Default">
+      <node ref="U6" pin="" pinfunction="1" pintype="output"/>
+      <node ref="U7" pin="" pinfunction="D7" pintype="input"/>
+    </net>
+    <net code="14" name="VDD1" class="Default">
+      <node ref="BT1" pin="1" pinfunction="+" pintype="passive"/>
+      <node ref="U1" pin="" pinfunction="VDD" pintype="input"/>
+    </net>
+    <net code="15" name="VDD2" class="Default">
+      <node ref="BT2" pin="1" pinfunction="+" pintype="passive"/>
+      <node ref="U7" pin="" pinfunction="VDD" pintype="input"/>
+    </net>
+    <net code="16" name="unconnected-(D1-DOUT-Pad1)" class="Default">
+      <node ref="D1" pin="1" pinfunction="DOUT" pintype="output"/>
+    </net>
+    <net code="17" name="unconnected-(U1-5V5-Pad)" class="Default">
+      <node ref="U1" pin="" pinfunction="5V5" pintype="input"/>
+    </net>
+    <net code="18" name="unconnected-(U1-D4-Pad)" class="Default">
+      <node ref="U1" pin="" pinfunction="D4" pintype="input"/>
+    </net>
+    <net code="19" name="unconnected-(U1-D5-Pad)" class="Default">
+      <node ref="U1" pin="" pinfunction="D5" pintype="input"/>
+    </net>
+    <net code="20" name="unconnected-(U1-D6-Pad)" class="Default">
+      <node ref="U1" pin="" pinfunction="D6" pintype="input"/>
+    </net>
+    <net code="21" name="unconnected-(U1-D9-Pad)" class="Default">
+      <node ref="U1" pin="" pinfunction="D9" pintype="input"/>
+    </net>
+    <net code="22" name="unconnected-(U1-D10-Pad)" class="Default">
+      <node ref="U1" pin="" pinfunction="D10" pintype="input"/>
+    </net>
+    <net code="23" name="unconnected-(U7-3V3-Pad)" class="Default">
+      <node ref="U7" pin="" pinfunction="3V3" pintype="input"/>
+    </net>
+    <net code="24" name="unconnected-(U7-5V5-Pad)" class="Default">
+      <node ref="U7" pin="" pinfunction="5V5" pintype="input"/>
+    </net>
+    <net code="25" name="unconnected-(U7-D1-Pad)" class="Default">
+      <node ref="U7" pin="" pinfunction="D1" pintype="input"/>
+    </net>
+    <net code="26" name="unconnected-(U7-D2-Pad)" class="Default">
+      <node ref="U7" pin="" pinfunction="D2" pintype="input"/>
+    </net>
+    <net code="27" name="unconnected-(U7-D3-Pad)" class="Default">
+      <node ref="U7" pin="" pinfunction="D3" pintype="input"/>
+    </net>
+    <net code="28" name="unconnected-(U7-D5-Pad)" class="Default">
+      <node ref="U7" pin="" pinfunction="D5" pintype="input"/>
+    </net>
+    <net code="29" name="unconnected-(U7-D6-Pad)" class="Default">
+      <node ref="U7" pin="" pinfunction="D6" pintype="input"/>
+    </net>
+    <net code="30" name="unconnected-(U7-D8-Pad)" class="Default">
+      <node ref="U7" pin="" pinfunction="D8" pintype="input"/>
+    </net>
+    <net code="31" name="unconnected-(U7-D9-Pad)" class="Default">
+      <node ref="U7" pin="" pinfunction="D9" pintype="input"/>
+    </net>
+    <net code="32" name="unconnected-(U7-GND-Pad)" class="Default">
+      <node ref="U7" pin="" pinfunction="GND" pintype="input"/>
+    </net>
+  </nets>
+</export>

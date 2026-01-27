@@ -1,0 +1,7 @@
+"#","Reference","Qty","Value","Footprint","DNP"
+"1","BT1, BT2","2","Battery","Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal",""
+"2","D1","1","NeoPixel_THT","LED_THT:LED_D5.0mm",""
+"3","M1","1","Stepper_Motor_bipolar","Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical_SMD_Pin1Left",""
+"4","SW1","1","PTS636 SM50 SMTR LFS","footprints_PTS636:SW_PTS636_SMT-G_5_CNK",""
+"5","U1, U7","2","ESP32C3","RF_Module:ESP32-C3-DevKitM-1",""
+"6","U3, U4, U5, U6","4","~","TestPoint:TestPoint_Pad_D1.0mm",""
