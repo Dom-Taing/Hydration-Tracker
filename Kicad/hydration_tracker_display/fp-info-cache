@@ -1,4 +1,4 @@
-26788795535473741
+26792332018663684
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -106399,21 +106399,21 @@ APDS-9960
 0
 8
 8
-footprints_FDC1004
+footprints_FDC1004DGSR
 DGS0010A_L
 
 FDC1004DGSR 
 0
 10
 10
-footprints_FDC1004
+footprints_FDC1004DGSR
 DGS0010A_M
 
 FDC1004DGSR 
 0
 10
 10
-footprints_FDC1004
+footprints_FDC1004DGSR
 DGS0010A_N
 
 FDC1004DGSR 
@@ -106434,3 +106434,17 @@ APDS-9960
 0
 8
 8
+x27_Footprint
+x27_stepper
+
+
+0
+4
+4
+x27_Footprint
+x27_stepper_two_holes
+
+
+0
+4
+4
